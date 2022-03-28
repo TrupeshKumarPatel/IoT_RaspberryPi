@@ -1,2 +1,9 @@
 \section{Introduction \& Background}	\label{sec:introduction-background}
-	Text here.
+
+Among the information flowing at the edge of the IoT network, voice always has multiple functionalities. It carries valuable content, reflects the conditions of the environment, and can be used to command other entities through acoustic actuators and phone calls.
+
+Implementing voice systems at the edge of an IoT network typically faces a set of challenges, namely that edge devices are always constrained by computing power, bandwidth contention, and energy consumption. Therefore, it is not feasible to implement a complete TCP/IP stack on each node and give all nodes the ability to connect to remote entities outside the local network.
+
+IP PBX (IP-based Private Branch Exchange) provides a comprehensive solution to address the issues mentioned above. As the prototype of IP PBX, the traditional PBX system is designed to serve a private organization, in which both the geographic scope and the communication connection are limited to a specific scope. Interconnections between internal phones are without cost, while only central office lines provide connections to the public switched telephone network (PSTN). This scheme just meets our expectations for edge IoT communication -- internal communication does not occupy egress bandwidth and some switcher servers still reserve the communication egress to the outside. Leveraging the PBX scheme, IP PBX
+
+There are several mature IP PBX solutions suitable for IoT implementation, such as 
