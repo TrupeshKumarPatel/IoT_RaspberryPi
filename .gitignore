@@ -10,3 +10,4 @@
 *.out
 *.cut
 *.mp4
+.ipynb_checkpoints
