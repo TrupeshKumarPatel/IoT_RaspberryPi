@@ -2,6 +2,7 @@
 *.synctex*
 *.aux
 *.log
+!experiment_results/*.log
 *iMac*
 *.bbl
 *.blg
