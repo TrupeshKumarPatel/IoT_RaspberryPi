@@ -2,6 +2,7 @@
 *.synctex*
 *.aux
 *.log
+!experiment_results/*.log
 *iMac*
 *.bbl
 *.blg
@@ -9,3 +10,4 @@
 *.out
 *.cut
 *.mp4
+.ipynb_checkpoints

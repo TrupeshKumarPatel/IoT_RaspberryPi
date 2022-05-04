@@ -1,0 +1,244 @@
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:29 0000001349  0000000001 ( 0.07%) 0.0000 0000001279  0000000009 ( 0.70%) 0.0026
+10.127.204.227   IBZFVt7MbhZ  00:00:29 0000001355  0000000002 ( 0.15%) 0.0000 0000001429  0000000011 ( 0.77%) 0.0045
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:30 0000001401  0000000001 ( 0.07%) 0.0000 0000001331  0000000009 ( 0.68%) 0.0005
+10.127.204.227   IBZFVt7MbhZ  00:00:31 0000001407  0000000002 ( 0.14%) 0.0000 0000001481  0000000011 ( 0.74%) 0.0021
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:31 0000001454  0000000001 ( 0.07%) 0.0000 0000001384  0000000009 ( 0.65%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:00:32 0000001459  0000000002 ( 0.14%) 0.0000 0000001534  0000000012 ( 0.78%) 0.0021
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:32 0000001506  0000000001 ( 0.07%) 0.0000 0000001436  0000000009 ( 0.63%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:00:33 0000001512  0000000002 ( 0.13%) 0.0000 0000001586  0000000012 ( 0.76%) 0.0032
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:33 0000001559  0000000001 ( 0.06%) 0.0000 0000001489  0000000009 ( 0.60%) 0.0020
+10.127.204.227   IBZFVt7MbhZ  00:00:34 0000001564  0000000002 ( 0.13%) 0.0000 0000001639  0000000012 ( 0.73%) 0.0039
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:34 0000001611  0000000001 ( 0.06%) 0.0000 0000001541  0000000009 ( 0.58%) 0.0012
+10.127.204.227   IBZFVt7MbhZ  00:00:35 0000001617  0000000002 ( 0.12%) 0.0000 0000001691  0000000012 ( 0.71%) 0.0026
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:35 0000001663  0000000001 ( 0.06%) 0.0000 0000001594  0000000009 ( 0.56%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:00:36 0000001670  0000000002 ( 0.12%) 0.0000 0000001744  0000000012 ( 0.69%) 0.0031
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:36 0000001716  0000000001 ( 0.06%) 0.0000 0000001646  0000000010 ( 0.61%) 0.0007
+10.127.204.227   IBZFVt7MbhZ  00:00:37 0000001722  0000000002 ( 0.12%) 0.0000 0000001797  0000000012 ( 0.67%) 0.0029
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:37 0000001768  0000000001 ( 0.06%) 0.0000 0000001698  0000000010 ( 0.59%) 0.0005
+10.127.204.227   IBZFVt7MbhZ  00:00:38 0000001774  0000000002 ( 0.11%) 0.0000 0000001848  0000000013 ( 0.70%) 0.0050
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:38 0000001821  0000000001 ( 0.05%) 0.0000 0000001751  0000000010 ( 0.57%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:00:39 0000001826  0000000002 ( 0.11%) 0.0000 0000001901  0000000013 ( 0.68%) 0.0020
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:39 0000001874  0000000001 ( 0.05%) 0.0000 0000001804  0000000010 ( 0.55%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:00:40 0000001879  0000000002 ( 0.11%) 0.0000 0000001954  0000000013 ( 0.67%) 0.0034
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:41 0000001926  0000000001 ( 0.05%) 0.0000 0000001856  0000000010 ( 0.54%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:00:41 0000001932  0000000002 ( 0.10%) 0.0000 0000002006  0000000013 ( 0.65%) 0.0025
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:42 0000001978  0000000001 ( 0.05%) 0.0000 0000001908  0000000010 ( 0.52%) 0.0010
+10.127.204.227   IBZFVt7MbhZ  00:00:42 0000001984  0000000002 ( 0.10%) 0.0000 0000002058  0000000013 ( 0.63%) 0.0022
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:43 0000002031  0000000001 ( 0.05%) 0.0000 0000001961  0000000010 ( 0.51%) 0.0005
+10.127.204.227   IBZFVt7MbhZ  00:00:43 0000002036  0000000002 ( 0.10%) 0.0000 0000002111  0000000015 ( 0.71%) 0.0024
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:44 0000002083  0000000001 ( 0.05%) 0.0000 0000002013  0000000010 ( 0.50%) 0.0010
+10.127.204.227   IBZFVt7MbhZ  00:00:44 0000002089  0000000002 ( 0.10%) 0.0000 0000002164  0000000015 ( 0.69%) 0.0031
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:45 0000002136  0000000001 ( 0.05%) 0.0000 0000002066  0000000010 ( 0.48%) 0.0007
+10.127.204.227   IBZFVt7MbhZ  00:00:45 0000002142  0000000002 ( 0.09%) 0.0000 0000002216  0000000015 ( 0.68%) 0.0019
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:46 0000002188  0000000001 ( 0.05%) 0.0000 0000002118  0000000010 ( 0.47%) 0.0003
+10.127.204.227   IBZFVt7MbhZ  00:00:46 0000002194  0000000002 ( 0.09%) 0.0000 0000002268  0000000015 ( 0.66%) 0.0018
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:47 0000002241  0000000001 ( 0.04%) 0.0000 0000002171  0000000010 ( 0.46%) 0.0003
+10.127.204.227   IBZFVt7MbhZ  00:00:47 0000002246  0000000002 ( 0.09%) 0.0000 0000002321  0000000015 ( 0.65%) 0.0033
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:48 0000002292  0000000001 ( 0.04%) 0.0000 0000002223  0000000010 ( 0.45%) 0.0012
+10.127.204.227   IBZFVt7MbhZ  00:00:48 0000002298  0000000002 ( 0.09%) 0.0000 0000002373  0000000015 ( 0.63%) 0.0036
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:49 0000002346  0000000001 ( 0.04%) 0.0000 0000002276  0000000010 ( 0.44%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:00:49 0000002352  0000000002 ( 0.08%) 0.0000 0000002426  0000000016 ( 0.66%) 0.0021
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:50 0000002398  0000000001 ( 0.04%) 0.0000 0000002329  0000000010 ( 0.43%) 0.0045
+10.127.204.227   IBZFVt7MbhZ  00:00:50 0000002404  0000000002 ( 0.08%) 0.0000 0000002479  0000000016 ( 0.65%) 0.0054
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:51 0000002451  0000000001 ( 0.04%) 0.0000 0000002381  0000000010 ( 0.42%) 0.0007
+10.127.204.227   IBZFVt7MbhZ  00:00:52 0000002457  0000000002 ( 0.08%) 0.0000 0000002531  0000000016 ( 0.63%) 0.0033
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:52 0000002503  0000000001 ( 0.04%) 0.0000 0000002433  0000000010 ( 0.41%) 0.0003
+10.127.204.227   IBZFVt7MbhZ  00:00:53 0000002509  0000000002 ( 0.08%) 0.0000 0000002583  0000000016 ( 0.62%) 0.0022
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:53 0000002556  0000000001 ( 0.04%) 0.0000 0000002486  0000000011 ( 0.44%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:00:54 0000002562  0000000002 ( 0.08%) 0.0000 0000002636  0000000016 ( 0.61%) 0.0018
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:54 0000002609  0000000001 ( 0.04%) 0.0000 0000002539  0000000011 ( 0.43%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:00:55 0000002614  0000000002 ( 0.08%) 0.0000 0000002690  0000000016 ( 0.59%) 0.0029
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:55 0000002661  0000000001 ( 0.04%) 0.0000 0000002591  0000000011 ( 0.42%) 0.0033
+10.127.204.227   IBZFVt7MbhZ  00:00:56 0000002667  0000000002 ( 0.07%) 0.0000 0000002741  0000000016 ( 0.58%) 0.0051
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:56 0000002714  0000000001 ( 0.04%) 0.0000 0000002644  0000000011 ( 0.42%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:00:57 0000002719  0000000002 ( 0.07%) 0.0000 0000002794  0000000016 ( 0.57%) 0.0022
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:57 0000002766  0000000001 ( 0.04%) 0.0000 0000002696  0000000011 ( 0.41%) 0.0025
+10.127.204.227   IBZFVt7MbhZ  00:00:58 0000002771  0000000002 ( 0.07%) 0.0000 0000002846  0000000016 ( 0.56%) 0.0036
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:58 0000002818  0000000001 ( 0.04%) 0.0000 0000002748  0000000012 ( 0.44%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:00:59 0000002824  0000000002 ( 0.07%) 0.0000 0000002898  0000000017 ( 0.59%) 0.0031
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:00:59 0000002871  0000000001 ( 0.03%) 0.0000 0000002801  0000000012 ( 0.43%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:00 0000002877  0000000002 ( 0.07%) 0.0000 0000002951  0000000017 ( 0.58%) 0.0022
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:00 0000002924  0000000001 ( 0.03%) 0.0000 0000002854  0000000012 ( 0.42%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:01 0000002929  0000000002 ( 0.07%) 0.0000 0000003004  0000000017 ( 0.57%) 0.0017
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:02 0000002976  0000000001 ( 0.03%) 0.0000 0000002906  0000000012 ( 0.41%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:02 0000002982  0000000002 ( 0.07%) 0.0000 0000003056  0000000017 ( 0.56%) 0.0030
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:03 0000003028  0000000001 ( 0.03%) 0.0000 0000002958  0000000012 ( 0.41%) 0.0023
+10.127.204.227   IBZFVt7MbhZ  00:01:03 0000003034  0000000002 ( 0.07%) 0.0000 0000003108  0000000017 ( 0.55%) 0.0037
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:04 0000003079  0000000001 ( 0.03%) 0.0000 0000003011  0000000012 ( 0.40%) 0.0130
+10.127.204.227   IBZFVt7MbhZ  00:01:04 0000003085  0000000002 ( 0.06%) 0.0000 0000003161  0000000019 ( 0.60%) 0.0137
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:05 0000003133  0000000001 ( 0.03%) 0.0000 0000003063  0000000012 ( 0.39%) 0.0220
+10.127.204.227   IBZFVt7MbhZ  00:01:05 0000003138  0000000002 ( 0.06%) 0.0000 0000003213  0000000019 ( 0.59%) 0.0228
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:06 0000003180  0000000001 ( 0.03%) 0.0000 0000003116  0000000012 ( 0.39%) 0.0241
+10.127.204.227   IBZFVt7MbhZ  00:01:06 0000003186  0000000002 ( 0.06%) 0.0000 0000003266  0000000019 ( 0.58%) 0.0237
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:07 0000003239  0000000001 ( 0.03%) 0.0000 0000003169  0000000012 ( 0.38%) 0.0243
+10.127.204.227   IBZFVt7MbhZ  00:01:07 0000003244  0000000002 ( 0.06%) 0.0000 0000003319  0000000019 ( 0.57%) 0.0256
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:08 0000003290  0000000001 ( 0.03%) 0.0000 0000003220  0000000012 ( 0.37%) 0.0032
+10.127.204.227   IBZFVt7MbhZ  00:01:08 0000003296  0000000002 ( 0.06%) 0.0000 0000003370  0000000019 ( 0.56%) 0.0044
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:09 0000003342  0000000001 ( 0.03%) 0.0000 0000003273  0000000012 ( 0.37%) 0.0005
+10.127.204.227   IBZFVt7MbhZ  00:01:09 0000003348  0000000002 ( 0.06%) 0.0000 0000003422  0000000019 ( 0.56%) 0.0025
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:10 0000003395  0000000001 ( 0.03%) 0.0000 0000003325  0000000012 ( 0.36%) 0.0012
+10.127.204.227   IBZFVt7MbhZ  00:01:10 0000003401  0000000002 ( 0.06%) 0.0000 0000003475  0000000019 ( 0.55%) 0.0036
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:11 0000003447  0000000001 ( 0.03%) 0.0000 0000003377  0000000013 ( 0.38%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:11 0000003453  0000000002 ( 0.06%) 0.0000 0000003527  0000000019 ( 0.54%) 0.0023
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:12 0000003500  0000000001 ( 0.03%) 0.0000 0000003430  0000000013 ( 0.38%) 0.0011
+10.127.204.227   IBZFVt7MbhZ  00:01:12 0000003505  0000000002 ( 0.06%) 0.0000 0000003580  0000000019 ( 0.53%) 0.0026
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:13 0000003552  0000000001 ( 0.03%) 0.0000 0000003482  0000000013 ( 0.37%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:14 0000003558  0000000002 ( 0.06%) 0.0000 0000003632  0000000019 ( 0.52%) 0.0033
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:14 0000003605  0000000001 ( 0.03%) 0.0000 0000003535  0000000013 ( 0.37%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:15 0000003611  0000000002 ( 0.06%) 0.0000 0000003685  0000000020 ( 0.54%) 0.0030
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:15 0000003658  0000000001 ( 0.03%) 0.0000 0000003588  0000000013 ( 0.36%) 0.0003
+10.127.204.227   IBZFVt7MbhZ  00:01:16 0000003663  0000000002 ( 0.05%) 0.0000 0000003738  0000000020 ( 0.54%) 0.0019
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:16 0000003710  0000000001 ( 0.03%) 0.0000 0000003640  0000000013 ( 0.36%) 0.0007
+10.127.204.227   IBZFVt7MbhZ  00:01:17 0000003715  0000000002 ( 0.05%) 0.0000 0000003790  0000000020 ( 0.53%) 0.0024
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:17 0000003763  0000000001 ( 0.03%) 0.0000 0000003693  0000000013 ( 0.35%) 0.0010
+10.127.204.227   IBZFVt7MbhZ  00:01:18 0000003768  0000000002 ( 0.05%) 0.0000 0000003843  0000000020 ( 0.52%) 0.0045
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:18 0000003815  0000000001 ( 0.03%) 0.0000 0000003745  0000000013 ( 0.35%) 0.0011
+10.127.204.227   IBZFVt7MbhZ  00:01:19 0000003821  0000000002 ( 0.05%) 0.0000 0000003895  0000000020 ( 0.51%) 0.0025
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:19 0000003867  0000000001 ( 0.03%) 0.0000 0000003797  0000000013 ( 0.34%) 0.0008
+10.127.204.227   IBZFVt7MbhZ  00:01:20 0000003873  0000000002 ( 0.05%) 0.0000 0000003948  0000000023 ( 0.58%) 0.0020
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:20 0000003920  0000000001 ( 0.03%) 0.0000 0000003850  0000000013 ( 0.34%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:21 0000003926  0000000002 ( 0.05%) 0.0000 0000004000  0000000023 ( 0.57%) 0.0030
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:21 0000003973  0000000001 ( 0.03%) 0.0000 0000003903  0000000013 ( 0.33%) 0.0007
+10.127.204.227   IBZFVt7MbhZ  00:01:22 0000003978  0000000002 ( 0.05%) 0.0000 0000004053  0000000023 ( 0.57%) 0.0027
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:22 0000004025  0000000001 ( 0.02%) 0.0000 0000003955  0000000016 ( 0.40%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:01:23 0000004031  0000000002 ( 0.05%) 0.0000 0000004105  0000000023 ( 0.56%) 0.0021
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:24 0000004077  0000000001 ( 0.02%) 0.0000 0000004008  0000000016 ( 0.40%) 0.0003
+10.127.204.227   IBZFVt7MbhZ  00:01:24 0000004083  0000000002 ( 0.05%) 0.0000 0000004157  0000000023 ( 0.55%) 0.0016
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:25 0000004130  0000000001 ( 0.02%) 0.0000 0000004060  0000000016 ( 0.39%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:01:25 0000004136  0000000002 ( 0.05%) 0.0000 0000004210  0000000023 ( 0.55%) 0.0033
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:26 0000004183  0000000001 ( 0.02%) 0.0000 0000004113  0000000016 ( 0.39%) 0.0063
+10.127.204.227   IBZFVt7MbhZ  00:01:26 0000004188  0000000002 ( 0.05%) 0.0000 0000004263  0000000024 ( 0.56%) 0.0078
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:27 0000004235  0000000001 ( 0.02%) 0.0000 0000004165  0000000016 ( 0.38%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:01:27 0000004241  0000000002 ( 0.05%) 0.0000 0000004315  0000000024 ( 0.56%) 0.0020
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:28 0000004287  0000000001 ( 0.02%) 0.0000 0000004218  0000000017 ( 0.40%) 0.0006
+10.127.204.227   IBZFVt7MbhZ  00:01:28 0000004293  0000000002 ( 0.05%) 0.0000 0000004367  0000000024 ( 0.55%) 0.0026
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:29 0000004340  0000000001 ( 0.02%) 0.0000 0000004270  0000000017 ( 0.40%) 0.0004
+10.127.204.227   IBZFVt7MbhZ  00:01:29 0000004346  0000000002 ( 0.05%) 0.0000 0000004420  0000000024 ( 0.54%) 0.0027
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:30 0000004392  0000000001 ( 0.02%) 0.0000 0000004323  0000000017 ( 0.39%) 0.0003
+10.127.204.227   IBZFVt7MbhZ  00:01:30 0000004398  0000000002 ( 0.05%) 0.0000 0000004472  0000000025 ( 0.56%) 0.0021
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:31 0000004445  0000000001 ( 0.02%) 0.0000 0000004375  0000000017 ( 0.39%) 0.0053
+10.127.204.227   IBZFVt7MbhZ  00:01:31 0000004450  0000000002 ( 0.04%) 0.0000 0000004525  0000000025 ( 0.55%) 0.0064
+2 active SIP channels
+Peer             Call ID      Duration Recv: Pack  Lost       (     %) Jitter Send: Pack  Lost       (     %) Jitter
+10.127.10.203    2659c41a0dd  00:01:32 0000004497  0000000001 ( 0.02%) 0.0000 0000004428  0000000017 ( 0.38%) 0.0005
+10.127.204.227   IBZFVt7MbhZ  00:01:32 0000004503  0000000002 ( 0.04%) 0.0000 0000004577  0000000025 ( 0.55%) 0.0034
+2 active SIP channels
