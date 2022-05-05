@@ -65,3 +65,9 @@ same => n, Dial(SIP/$extensionNumber, 30, r)
      " >> $EXTENSIONS_FILE
      echo "EXTENSIONS configuration are added successfully!!!"
 fi
+
+asterisk -rx "sip reload"
+echo "SIP configuration reloaded successfully!!!"
+
+asterisk -rx "dialplan reload"
+echo "Dialplan configuration reloaded successfully!!!"
