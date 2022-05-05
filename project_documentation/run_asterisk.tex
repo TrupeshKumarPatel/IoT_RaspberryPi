@@ -79,3 +79,28 @@
 	\end{itemize}
 	
 	There are many Asterisk commands are available in their document offical website \href{https://wiki.asterisk.org/wiki/display/AST/Asterisk+18+Documentation}{here} and external soure \href{https://www.voip-info.org/asterisk-cli/}{here}, use it as you need.
+	
+\pagebreak
+\section{Helper Functions of Asterisk}	\label{sec:helper-asterisk}
+	Author has created helper function to ease Asterisk configuration. Currently only one function is created, but in future their might be more. 
+	\begin{itemize}
+		\item To add new user/peer use the bash script called ``\textbf{add\_user.sh}'', this script can be found \href{https://github.com/TrupeshKumarPatel/IoT_RaspberryPi/tree/final_submission/source_code/asterisk_helper_scripts}{here}.
+			\begin{itemize}[leftmargin=1.7cm]
+				\item[\textbf{Step 1:}] Type command ``{\fontfamily{cmtt}\selectfont{cd IoT\_RaspberryPi}}''\\
+				\item[\textbf{Step 2:}] Type command ``{\fontfamily{cmtt}\selectfont{sudo su}}''\\
+					\begin{minipage}{\textwidth}
+						\vspace{2mm}
+						\includegraphics[scale=0.35]{Images/raspberry_pi/asterisk_helper/sudo.png}
+						\vspace{2mm}
+					\end{minipage}
+				\item[\textbf{Step 3:}] Type command ``{\fontfamily{cmtt}\selectfont{bash source\_code/asterisk\_helper\_scripts/add\_user.sh}}''
+				\item[\textbf{Step 4:}] Enter extention number(must be 4 digits) <-- for now it only accepts 4 digits, you can change the bash script if you want.
+				\item[\textbf{Step 5:}] Enter caller ID
+				\item[\textbf{Step 6:}] Enter Password	\\
+					\begin{minipage}{\textwidth}
+						\vspace{2mm}
+						\includegraphics[scale=0.35]{Images/raspberry_pi/asterisk_helper/add_user.png}
+						\vspace{2mm}
+					\end{minipage}
+			\end{itemize}
+	\end{itemize}
