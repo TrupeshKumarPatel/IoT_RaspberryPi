@@ -47,21 +47,21 @@ else
           exit 1
      fi
      echo "
-          [$extensionNumber](voip-default)
-          secret=$password
-          callerid=\"$callerID\" <$extensionNumber>
+[$extensionNumber](voip-default)
+secret=$password
+callerid=\"$callerID\" <$extensionNumber>
      " >> $SIP_FILE
      echo "SIP configuration are added successfully!!!"
 
      echo "
-          [from-trunk]
-          ;
-          ; voip-default $extensionNumber (FOR TEST ONLY)
-          ;
-          exten     => $extensionNumber, 1, NoOp(Someone Calling $extensionNumber)
-          same => n, Answer()
-          same => n, Wait()
-          same => n, Dial(SIP/$extensionNumber, 30, r)
+[from-trunk]
+;
+; voip-default $extensionNumber (FOR TEST ONLY)
+;
+exten     => $extensionNumber, 1, NoOp(Someone Calling $extensionNumber)
+same => n, Answer()
+same => n, Wait()
+same => n, Dial(SIP/$extensionNumber, 30, r)
      " >> $EXTENSIONS_FILE
      echo "EXTENSIONS configuration are added successfully!!!"
 fi
