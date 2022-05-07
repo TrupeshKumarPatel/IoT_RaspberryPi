@@ -1,38 +1,110 @@
-\section{Experiment}	\label{sec:experiments}
-
-	\subsection{Basic SIP Analysis}
-		The Session Initiation Protocol (SIP) is an application layer control protocol for establishing, changing and terminating multimedia sessions, where the sessions can be IP telephony, multimedia sessions or multimedia conferences. SIP is the core protocol of many IP-based PBX applications, including Asterisk.
-		
-		To demonstrate the main components of the SIP communication, a simplified scenario is implemented, as shown in Figure  \hyperref[fig:topo]{Figure \ref{fig:topo}}. Two softphone applications are running on the same computer, and an IP-based PBX application (Asterisk), running on a Raspberry Pi 4, is serving as the PBX server.
-		
-		\begin{figure}[htbp]
-			\centerline{\includegraphics[width=8cm]{Images/experiment/exp1.png}}
-			\caption{Simplified Scenario}
-			\label{fig:topo}
-		\end{figure}
-		
-		The SIP process starts with registration. All SIP terminals as User Agents should register with the registration server to inform their location, session capability, and other information.
-		
-		Usually, when the SIP terminal (User Agent) is powered on or configured to perform a registration operation, a registration request message (REGISTER) is sent to the registration server, carrying all the information that needs to be registered. After receiving the registration request message, the registration server sends a response message to the terminal to inform it that the request message has been received. If the registration is successful, it will send a "200 OK" message to the terminal. However, the most common response is a "401 Unauthorized" message because authorization is required in most of the implantations for security purposes. 
-		
-		To trace and see all types of packets tramissions, author used Wireshark open-souce software. \hyperref[fig:packet-trace]{Figure \ref{fig:packet-trace}} is a flow sequence of the one single call from Zoiper5 user (IP: 192.168.60.106:63771) to MicroSIP user (IP:192.168.60.106:53493). In this, senario their are actual two connections, first from Zoiper5 user to Asterisk (shown in left-side of Figure \ref{fig:packet-trace}) and second Asterisk to MicroSIP (shown in right-side of Figure \ref{fig:packet-trace}).
+\section{Experiment Design}	\label{sec:experiments}
+	In this paper, five different scenarios in which two callers (peers) communicate using VoIP are considered to see the quality of calls made at a variety of distances. 
 	
-		The SIP protocol adopts the Client-Server pattern, in which the calls are established between User Agents through the proxy server.
-				
-		\begin{figure}[htbp]
-			\begin{minipage}{0.24\textwidth}
-				\begin{flushleft}
-					\includegraphics[height=100pt,width=\textwidth]{Images/experiment/a1.png}
-%%					\caption{Zoiper to Asterisk}
-				\end{flushleft}
-			\end{minipage}
-			\begin{minipage}{0.24\textwidth}
-				\begin{flushright}
-					\includegraphics[height=100pt,width=\textwidth]{Images/experiment/a2.png}
-%					\caption{Zoiper to MicroSIP}
-				\end{flushright}
-			\end{minipage}
-			\caption{SIP packet trasmission from Zoiper to Asterisk(left-side), Asterisk to MicroSIP (right-side)}
-			\label{fig:packet-trace}
-		\end{figure}
-				
+	In Scenario 1 (\hyperref[fig:scene-1]{Figure \ref{fig:scene-1}}), peer `A' (IP::10.127.10.203) and peer `B' (IP::10.127.204.227) are calling from within the same lab/office, which lets them connect to the same access point. Since both callers are at the same location, jitter can be expected to be very minimal and loss for of sent/received packets is the same at the both peers. In \hyperref[fig:scene-out-1]{Figure \ref{fig:scene-out-1}} it can be sees thaat the sending jitter at both peers have similar patterns. However, there jitter values differ; this could be due to differences between the devices. 
+	\begin{figure}[tbh]
+		\begin{minipage}{\textwidth}
+%			\vspace{2mm}
+			\includegraphics[scale=0.29]{Images/experiment/senarios/in_lab.drawio.png}
+%			\vspace{2mm}
+		\end{minipage}
+		\caption{Scenario 1: Two peers within same office}
+		\label{fig:scene-1}
+	\end{figure}
+
+	\begin{figure}[!b]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.38]{Images/experiment/senarios/df_in_lab.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Jitter values for the time spent by callers (for Scenario 1)}
+		\label{fig:scene-out-1}
+	\end{figure}
+
+
+	In Scenario 2 (\hyperref[fig:scene-2]{Figure \ref{fig:scene-2}}), peer `A' (IP::10.127.10.203) and peer `B' (IP::10.127.204.227) are calling from different locations. Peer `A' is staying at the same lab/office seen in Scenario 1 and peer `B' is continuously moving to different locations while remaining at the same floor in the same building as peer `A'. This can let peer `B' change its access point within same local area network. Now, here we can expect that peer `B' will have more jitter then peer `A', since peer `B' has to connect and re-connect to different access points. \hyperref[fig:scene-out-2]{Figure \ref{fig:scene-out-2}} it can be seen the sending jitter at both peers have almost same patterns and differences as Scenario 1. However, since peer `B' is moving from one location to another, two peaks in the charted jitter of peer 'B' appear which are far higher than seen with peer `A' at the same point in time, which could appear when peer 'B' connects to a new access point and/or re-connects to a previous access point.
+	\begin{figure}[tbh]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.29]{Images/experiment/senarios/in_floor.drawio.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Scenario 2: Two peers within same floor}
+		\label{fig:scene-2}
+	\end{figure}
+
+	\begin{figure}[!b]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.38]{Images/experiment/senarios/df_in_floor.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Jitter values for the time spent by callers (for Scenario 2)}
+		\label{fig:scene-out-2}
+	\end{figure}
+
+	In Scenario 3 (\hyperref[fig:scene-3]{Figure \ref{fig:scene-3}}), peer `A' (IP::10.127.10.203) and peer `B' (IP::10.127.204.227) are calling from different locations. Peer `A' is staying at same lab/office seen in Scenario 1 and peer `B' is continuously moving to different locations within the same building, but never on same floor. It is expected that peer `B' will have more jitter then peer `A', as peer `B' has to connect and re-connect to different access points. \hyperref[fig:scene-out-3]{Figure \ref{fig:scene-out-3}} we can see the sending jitter at both peers have almost same patterns and differences as Scenario 1. However, since peer `B' is moving from one location to another, many peaks appear which are much higher than those seen with peer `A', which could appear when peer 'B' connects to a new access point and/or re-connects to a previous access point.
+	\begin{figure}[thb]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.29]{Images/experiment/senarios/diff_floor.drawio.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Scenario 3: Two peers at different floors but within the same building}
+		\label{fig:scene-3}
+	\end{figure}
+
+	\begin{figure}[!b]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.38]{Images/experiment/senarios/df_diff_floor.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Jitter values for the time spend by callers (for Scenario 3)}
+		\label{fig:scene-out-3}
+	\end{figure}
+
+
+	In Scenario 4 (\hyperref[fig:scene-4]{Figure \ref{fig:scene-4}}), peer `A' (IP::10.127.10.203) and peer `B' (IP::10.127.204.227) are calling from different locations. Peer `A' is staying at same lab/office seen in Scenario 1 and peer `B' is continuously moving outside of the same building as the lab where peer 'A' resides. This will allow peer `B' to be close to the same access point as peer 'A', but much farther from it. It can be expected that peer `B' will have more jitter then peer`A', since peer `B' has to connect and re-connect to different access points. At one point peer `B' disconnects from the network, which led to the call being terminated early and a lack of additional jitter data following the disconnection. In \hyperref[fig:scene-out-4]{Figure \ref{fig:scene-out-4}} it can be seen the sending jitter at both peers have almost same patterns and differences as Scenario 1. However, since peer `B' is moving one location to another, many peaks appear which are much higher than those seen with peer `A', which could appear when peer 'B' connects to a new access point and/or re-connects to a previous access point.
+	\begin{figure}[thb]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.29]{Images/experiment/senarios/near_fountain.drawio.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Scenario 4: Two peers are at different locations but close access points}
+		\label{fig:scene-4}
+	\end{figure}
+
+	\begin{figure}[!b]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.38]{Images/experiment/senarios/df_fountain.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Jitter values for the time spent by callers (for Scenario 4)}
+		\label{fig:scene-out-4}
+	\end{figure}
+
+
+	In Scenario 5 (\hyperref[fig:scene-5]{Figure \ref{fig:scene-5}}), peer `A' (IP::10.127.10.203) and peer `B' (IP::10.127.204.227) are calling from different locations. Peer `A' is staying at same lab/office as seen in Scenario 1 and peer `B' is continuously moving within a different building. It can be expected that peer `B' will have more jitter then peer`A', since peer `B' has to connect and re-connect to different access points. In \hyperref[fig:scene-out-5]{Figure \ref{fig:scene-out-5}} it can be seen the sending jitter at both peers have almost same patterns and differences as Scenario 1. However, since peer `B' is moving one location to another, many peaks appear which are much higher than those seen with peer `A', which could appear when peer 'B' connects to a new access point and/or re-connects to a previous access point.
+	\begin{figure}[tbh]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.29]{Images/experiment/senarios/bus_hub.drawio.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Scenario 5: Two peers are at different locations and different access points}
+		\label{fig:scene-5}
+	\end{figure}
+
+	\begin{figure}[tbh]
+		\begin{minipage}{\textwidth}
+			%			\vspace{2mm}
+			\includegraphics[scale=0.38]{Images/experiment/senarios/df_bus_hub.png}
+			%			\vspace{2mm}
+		\end{minipage}
+		\caption{Jitter values for the time spent by callers (for Scenario 5)}
+		\label{fig:scene-out-5}
+	\end{figure}

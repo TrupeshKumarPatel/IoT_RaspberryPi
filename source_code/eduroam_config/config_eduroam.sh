@@ -26,6 +26,7 @@ network={
 
 " >> /etc/wpa_supplicant/wpa_supplicant.conf
 
+echo ""
 echo "Testing conntion with \"eduroam\""
 
 timeout 20 wpa_supplicant -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf > test_config_eduroam.txt
